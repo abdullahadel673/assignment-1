@@ -1,4 +1,9 @@
 /* header related style*/
+body {
+    width: 1600px;
+    height: 7333px;
+}
+
 .banner-card img {
 
     margin: 50px 140px 0 140px;
@@ -123,6 +128,114 @@
     left: 10px;
     right: -2px;
     bottom: -1606px;
-    width: 50px;
-    height: 50px;
+
+}
+
+.third-section {
+    border-radius: 16px;
+    background: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    margin: 0 140px 120px 140px;
+    padding: 100px 385px 214px 385px;
+    width: 1320px;
+    height: 480px;
+
+}
+
+.third-section-h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(7, 2, 17, );
+    text-align: center;
+    width: 550px;
+    margin-bottom: 48px;
+
+
+}
+
+.small {
+    color: rgb(255, 0, 0);
+}
+
+.button {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background: rgb(255, 0, 0);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px 577px 110px 577px;
+    border: 0;
+    width: 103px;
+    height: 24px;
+
+}
+
+.forth-section {
+    margin: 0 140px 120px 140px;
+    width: 1320px;
+    height: 460px;
+    display: flex;
+}
+
+.best-offer {
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 104px 216px 16px 0;
+    width: 204px;
+}
+
+.coming-soon {
+    color: rgb(7, 2, 17, );
+    font-family: "Merriweather", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    width: 330px;
+    margin: 0 135px 22px 0;
+}
+
+.paragraph {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 390px;
+    margin: 0 70px 104px 0;
+
+}
+
+.forth-first-image {
+    width: 360px;
+    height: 360px;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+
+}
+
+.year {
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 126px;
+    margin: 112px 149px 16px 118px;
+
+}
+
+.second-pera {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 270px;
+    margin: 0 0 43px 118px;
+}
+
+.forth-second-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 136px 0 118px;
 }
