@@ -122,14 +122,17 @@ body {
 
 }
 
-#second-img {
+#second-img img {
     position: absolute;
     top: 1764px;
-    left: 10px;
-    right: -2px;
+    left: 862px;
+    right: 138px;
     bottom: -1606px;
-
+    width: 319px;
+    height: 464px;
 }
+
+
 
 .third-section {
     border-radius: 16px;
@@ -149,9 +152,10 @@ body {
     text-align: center;
     width: 550px;
     margin-bottom: 48px;
-
-
 }
+
+
+
 
 .small {
     color: rgb(255, 0, 0);
@@ -210,10 +214,14 @@ body {
 }
 
 .forth-first-image {
-    width: 360px;
-    height: 360px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/resources/Ellipse\ 1.png');
     box-sizing: border-box;
     border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -447,17 +455,68 @@ body {
     margin: 80px 585px 0 585px;
 }
 
+
+
+
 #last-section-email {
     width: 648px;
     height: 72px;
     border-radius: 50px;
     background: rgb(255, 255, 255);
 
-    margin: 0px 336px 80px 336px;
+    margin: 0px 336px 80px 336px
+}
 
-    user@gmail.com {
-        font-family: "Inter", sans-serif;
-        font-size: 18px;
-        font-weight: 400px;
-        margin: 25px 477px 25px 30px;
-    }
+.last-button {
+    position: absolute;
+    top: 6690px;
+    width: 210px;
+    height: 72px;
+    left: 930px;
+    right: 400px;
+
+    bottom: -6452px;
+    background: rgb(255, 0, 0);
+    border-radius: 0 50px 50px 0;
+    color: rgb(255, 255, 255);
+    border: 0;
+
+}
+
+
+
+.footer {
+    width: 1600px;
+    height: 609px;
+    background: rgb(7, 2, 17);
+
+    color: rgb(255, 255, 255);
+}
+
+.first-footer-section p {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 127px 810px 41px 144px;
+    width: 375px;
+    height: 80px;
+}
+
+.first-footer-section h3 {}
+
+.first-footer-section img {}
+
+
+.second-footer-section {
+    margin: 48px 632px 47px 640px;
+
+}
+
+.third-footer-section {
+    display: flex;
+    margin: 50px 140px 118px 140px;
+    gap: 880px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
